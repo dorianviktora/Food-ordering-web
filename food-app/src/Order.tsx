@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { Restaurant } from "./restaurantInterface";
+import { Restaurant } from "./interfaces/restaurantInterface";
 import FoodComponent from "./FoodComponent";
+import "./styles/styles.css";
 
 const Order: React.FC<{
   id: number;

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Order from "./Order";
 import HomePage from "./HomePage";
-import "./styles.css";
+import "./styles/styles.css";
 
 const App: React.FC = () => {
   useLayoutEffect(() => {}, []);

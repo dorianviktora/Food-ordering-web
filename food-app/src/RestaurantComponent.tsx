@@ -1,6 +1,6 @@
 import React from "react";
-import { Restaurant } from "./restaurantInterface";
-import "./styles.css";
+import { Restaurant } from "./interfaces/restaurantInterface";
+import "./styles/styles.css";
 
 interface RestaurantProps {
   restaurant: Restaurant;

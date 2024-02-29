@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { Restaurant } from "./restaurantInterface";
+import { Restaurant } from "./interfaces/restaurantInterface";
 import RestaurantComponent from "./RestaurantComponent";
-import "./styles.css";
+import "./styles/styles.css";
 
 const HomePage: React.FC<{
   paidMoney: number;
@@ -41,6 +41,7 @@ const HomePage: React.FC<{
       )}
       <label>
         <input
+          className="search-bar"
           type="text"
           placeholder="Search for restaurant"
           value={searchedName}

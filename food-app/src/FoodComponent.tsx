@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { FoodItem } from "./foodItemInterface";
-import "./stylesFood.css";
+import { FoodItem } from "./interfaces/foodItemInterface";
+import "./styles/stylesFood.css";
 
 interface FoodComponentProps {
   foodItem: FoodItem;
