@@ -19,3 +19,11 @@ The website has dynamic elements such as a search function and the ability to ca
 ![web-3](https://github.com/dorianviktora/Food-ordering-web/assets/159776059/3db88eee-60f9-4135-b5f8-b5923fe1ef54)
 
 ![web-4](https://github.com/dorianviktora/Food-ordering-web/assets/159776059/4d8e811e-9fa5-44b0-b0fc-0082b2006665)
+
+## Future changes
+
+I have decided that I will continue on this project with my friend, and together we plan to add more features:
+
+- Login and registration
+- Admin mode for changing restaurants and food directly on the website
+- Profile page with favourite restaurants and statistics of your orders
